@@ -1,0 +1,133 @@
+:root{
+
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    --White: hsl(0, 0%, 100%);
+--Off-white: hsl(0, 0%, 94%);
+--Light-grey: hsl(0, 0%, 86%);
+--Smokey-grey: hsl(0, 1%, 44%);
+--Off-black: hsl(0, 0%, 8%);
+    
+}
+
+
+@media screen  and (max-width: 35rem){
+    body {
+        background-color: var(--Off-white);
+        
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+    .container{
+        background-color: var(--White);
+        padding: 20px;
+        border-radius: 10px 10px 90px 10px;
+    }
+      .input-field{
+        width: 80px;
+
+      }
+      .day, .months, .years{
+        display: inline-grid;
+        padding: 13px;
+      }
+
+      .calculator{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin-top: 2rem;
+      }
+      .cal-year, .cal-month, .cal-day{
+        color: var(--Purple);
+        padding-right: 0.5rem;
+        
+      }
+
+      .age{
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+      }
+      
+      .divider{
+       position: revert;
+        /* margin-top: 2.5rem; */
+      }
+      .arrow{
+        background-color: var(--Purple);
+        border-color: var(--Purple);
+        border-radius: 55%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        transform: translate(8rem);
+        top: 2rem;
+        display: flex;
+      }
+
+    
+}
+
+@media screen and (min-width: 35rem) {
+  
+  body {
+    background-color: var(--Off-white);
+    
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+  .container{
+    background-color: var(--White);
+    padding: 50px;
+    border-radius: 10px 10px 90px 10px;
+    max-width: 100%;
+}
+
+.input-field{
+  width: 80px;
+
+}
+.day, .months, .years{
+  display: inline-grid;
+  padding: 13px;
+}
+
+.calculator{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+.cal-year, .cal-month, .cal-day{
+  color: var(--Purple);
+  padding-right: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+
+  
+}
+.age{
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
+
+.arrow{
+  background-color: var(--Purple);
+  border-color: var(--Purple);
+  border-radius: 55%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  transform: translate(18rem);
+  top: 2rem;
+  display: flex;
+}
+
+
+}
